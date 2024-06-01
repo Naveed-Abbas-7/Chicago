@@ -21,8 +21,8 @@ const SideBar = () => {
         <FiMenu onClick={handleClick} className="md:hidden" />
       </div>
       <div
-        className={`fixed md:relative transition-all ease-in delay-350  flex justify-center w-[145px] bg-[#A2C7E4]  rounded-e-3xl  ${
-          open ? " left-0 z-[10] h-screen" : " left-[-50%]"
+        className={`fixed md:relative transition-all ease-in delay-350  flex justify-center w-[145px] bg-[#A2C7E4]  rounded-e-3xl ${
+          open ? " left-0 z-[10] h-screen" : "left-[-50%]"
         }`}
       >
         <div className=" flex flex-col justify-around md:mt-0 mt-7">

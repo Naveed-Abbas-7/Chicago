@@ -26,7 +26,7 @@ const MyTeam = () => {
                       </span>
                     </div>
                     <div className='flex gap-2 '>
-                      <button className='py-2 h-fit px-5 rounded-full border-2 border-[#6A74C9]'>All Players</button>
+                      <button className='py-2 h-fit px-5 rounded-full border-2 border-[#6A74C9] text-[14px]'>All Players</button>
                       <button className='py-2 h-fit px-6 rounded-full text-white bg-[#6A74C9]'>My Team</button>
                     </div>
                   </div>

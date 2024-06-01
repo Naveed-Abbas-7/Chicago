@@ -31,6 +31,7 @@ const Home = () => {
               }}
               className="  "
             >
+              <div className=" abcd w-full h-full ">
               <div className="h-full flex flex-col justify-center ml-7 ">
                 <div className= "text-white text-[42px] py-3 z-10 font-semibold">
                   <h2 className="">CHICAGO</h2>
@@ -39,6 +40,7 @@ const Home = () => {
                 <button className="bg-[#6a74c9] px-5 py-2 w-fit text-white rounded-xl z-10">
                   Explore now
                 </button>
+              </div>
               </div>
             </div>
             <div className="bg-white px-4 rounded-xl py-4 flex flex-col items-center ">
